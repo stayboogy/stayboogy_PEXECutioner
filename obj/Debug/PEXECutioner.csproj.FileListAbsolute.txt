@@ -1,0 +1,9 @@
+c:\users\m\documents\visual studio 2015\Projects\PEXECutioner\PEXECutioner\bin\Debug\PEXECutioner.exe.config
+C:\Users\M\Desktop\PEXECutioner\PEXECutioner\output\PEXECutioner.exe.config
+C:\Users\M\Desktop\PEXECutioner\PEXECutioner\output\PEXECutioner.exe
+C:\Users\M\Desktop\PEXECutioner\PEXECutioner\output\PEXECutioner.pdb
+C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.PEXECutioner.resources
+C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.Properties.Resources.resources
+C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.csproj.GenerateResource.Cache
+C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.exe
+C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.pdb
