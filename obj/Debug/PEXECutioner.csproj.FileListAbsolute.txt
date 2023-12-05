@@ -7,3 +7,6 @@ C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.Properties.R
 C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.csproj.GenerateResource.Cache
 C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.exe
 C:\Users\M\Desktop\PEXECutioner\PEXECutioner\obj\Debug\PEXECutioner.pdb
+C:\Users\M\Desktop\stayboogy_PEXECutioner\output\PEXECutioner.exe.config
+C:\Users\M\Desktop\stayboogy_PEXECutioner\obj\Debug\PEXECutioner.exe
+C:\Users\M\Desktop\stayboogy_PEXECutioner\obj\Debug\PEXECutioner.pdb
