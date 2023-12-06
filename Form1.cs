@@ -33,33 +33,26 @@ namespace PEXECutioner
                 p.Kill();
             }
 
-            // if this app.config key is not present then we are using a custom wallpaper
-            // custom wallpaper means 
-            // 1) window has no border
-            // 2) uses custom image - %AppDir%\wallpaper.bmp - must be this
-            // 3) maximized borderless window
-            // 4) window is bottomMost
-            if (@System.Configuration.ConfigurationManager.AppSettings["customWallpaper"] == "yes")
-            {
-
-                string appdir = Application.StartupPath;
-                string image = @"\wallpaper.bmp";
-                Image mywallpaper = new Bitmap(appdir + image);
-                this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-                this.BackgroundImage = mywallpaper;
-                this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            }
-            else
-            {
-                this.BackgroundImage = null;
-            }
-            // if this app.config key is not present then we are using a Fixed Tool Window that is Moveable with transparent background
-            if ((@System.Configuration.ConfigurationManager.AppSettings["moveableWindow"] == "yes"))
+            // if this app.config key is "yes" we use a Fixed Tool Window that is Moveable with transparent background [DEFAULT]
+            if ((@System.Configuration.ConfigurationManager.AppSettings["moveable"] == "yes"))
             {
                 this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-                if ((@System.Configuration.ConfigurationManager.AppSettings["tpcontrol"] != "yes"))
+
+                // if this app.config key is "no" then the Fixed Tool Window is transparent [DEAULT]
+                if ((@System.Configuration.ConfigurationManager.AppSettings["transparent"] == "no"))
                 {
-                    this.BackColor = System.Drawing.SystemColors.ControlDark;
+                    // if window is moveable but not transpaprent and there is a color set in the backcolor app.config key
+                    // we have that color as our background
+                    if ((System.Configuration.ConfigurationManager.AppSettings["backcolor"] != ""))
+                    {
+                        Color backColor = Color.FromName(@System.Configuration.ConfigurationManager.AppSettings["backcolor"]);
+                        this.BackColor = backColor;
+                    }
+                    else
+                    {
+                        // otherwise we use the ControlDark Color as our [DEFAULT] background color
+                        this.BackColor = System.Drawing.SystemColors.ControlDark;
+                    }
                 }
             }
             else
