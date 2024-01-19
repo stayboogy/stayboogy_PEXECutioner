@@ -39,7 +39,7 @@ lp
 AppPath = X:\Path\To\Where\You\Copied\PEXECutioner\PEXECutioner.exe
 ```
 
-### 4) copy "PEXECutioner" and "PEXECutioner.exe.config" to the location inside your WinPE source you specified in step 3
+### 4) copy "PEXECutioner.exe" and "PEXECutioner.exe.config" to the location inside your WinPE source you specified in step 3
 
 ### 5) edit "PEXECutioner.exe.config" to correspond to the tools' paths' you would like to be able to run with just a click of a button. 
 
