@@ -1,5 +1,9 @@
 # stayboogy_PEXECutioner
 
+##Based on my Original Project:  https://codeberg.org/stayboogy/stayboogy_RunBarPE
+
+This is the successor to RunBarPE.  I like this name better, but I might actually like the old style better.  This project is constantly evolving.  Stay Tuned!
+
 ### user customizable, single exe, single configfile, WinPE Shell & Launcher for both x86/x64 in the same exe
 
 #### Video Demonstration
