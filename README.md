@@ -36,12 +36,12 @@ lp
 
 ```javascript
 [LaunchApp]
-AppPath = X:\Path\To\Where\You\Copied\RunbarPE\RunBarPE.exe
+AppPath = X:\Path\To\Where\You\Copied\PEXECutioner\PEXECutioner.exe
 ```
 
-### 4) copy "RunBarPE.exe" and "RunBarPE.exe.config" to the location inside your WinPE source you specified in step 3
+### 4) copy "PEXECutioner" and "PEXECutioner.exe.config" to the location inside your WinPE source you specified in step 3
 
-### 5) edit "RunBarPe.exe.config" to correspond to the tools' paths' you would like to be able to run with just a click of a button. 
+### 5) edit "PEXECutioner.exe.config" to correspond to the tools' paths' you would like to be able to run with just a click of a button. 
 
 ```javascript
     <add key="button#" value="X:\Path\To\Some\Exe\Or\Task\Or\CMD\ETC"/>
