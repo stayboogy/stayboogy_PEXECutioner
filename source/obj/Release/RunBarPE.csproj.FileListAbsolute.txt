@@ -1,0 +1,11 @@
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\bin\Release\App.config
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\bin\Release\RunBarPE.exe.config
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\bin\Release\RunBarPE.exe
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\bin\Release\RunBarPE.pdb
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\bin\Release\RunBarPE.exe.CodeAnalysisLog.xml
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\bin\Release\RunBarPE.exe.lastcodeanalysissucceeded
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\obj\Release\RunBarPE.Form1.resources
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\obj\Release\RunBarPE.Properties.Resources.resources
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\obj\Release\RunBarPE.csproj.GenerateResource.Cache
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\obj\Release\RunBarPE.exe
+C:\Users\M\Desktop\Git\stayboogy_RunBarPE\source\obj\Release\RunBarPE.pdb
