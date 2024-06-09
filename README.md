@@ -3,7 +3,7 @@
 
 ### user customizable, single exe, single configfile, WinPE Shell & Launcher for both x86/x64 in the same exe
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_RunBarPE/raw/branch/master/docs/RunBarPE-thistothis.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_PEXECutioner/blob/0dde80d56110863319f10df22bf364de6ab75095/docs/RunBarPE-thistothis.png)
 
 #### Video Demonstration
 
@@ -69,7 +69,7 @@ AppPath = X:\Path\To\Where\You\Copied\RunbarPE\RunBarPE.exe
 
 ### Buttons can defined in any order or there can be any number of buttons from 1 to 16
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_RunBarPE/raw/branch/master/docs/RunBarPE-examples.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_PEXECutioner/blob/0dde80d56110863319f10df22bf364de6ab75095/docs/RunBarPE-examples.png)
 
 
 ### 6) rebuild your source WinPE
